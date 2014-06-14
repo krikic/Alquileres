@@ -186,7 +186,7 @@ class GestionAlquiler():
                     J.setNIF(datos[1])
                     J.setNombre(datos[2])
                     J.setApellidos(datos[3])
-                    self.__socios.append(J)
+                    self.__clientes.append(J)
                 if tipo == "CO":
                     J=Coches()
                     J.setmatricula(datos[1])
